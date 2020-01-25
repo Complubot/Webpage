@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body id="page-top">
@@ -34,55 +36,78 @@
         <div class="intro-body">
             <div class="container">
                 <div class="col-lg-8 mx-auto" style="width: 3271;">
-                    <h1 class="brand-heading">Az5 Robot</h1>
-                    <p class="intro-text" style="margin: 30px;margin-left: 30px;">A low cost, modular, ROS compliant robotic platform targeted at research in the field of robotics and artificial vision<br></p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a></div>
+                    <h1 class="brand-heading" style="background-color: rgba(0,0,0,0.26);">Az5 Robot</h1>
+                    <p class="intro-text" style="margin: 30px;margin-left: 30px;background-color: rgba(0,0,0,0.19);">A low cost, modular, ROS compliant robotic platform targeted at research in the field of robotics and artificial vision<br></p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a></div>
             </div>
         </div>
     </header><section id="about" class="content-section text-center">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-sm-6 col-md-6 col-lg-6 mx-auto">
                 <h2>About AZ5</h2>
-                <p>The robot has an omnidirectional motor platform with mecanum wheels. It is capable of reaching high speeds up to 1 meter per second and carrying up to 50 kg of payload.</p>
+                <p>The robot has an omnidirectional motor platform with mecanum wheels. It is capable of reaching high speeds up to 1 meter per second and carrying up to 50 kg of payload</p>
                 <p>Numerous sensors are used to recognize the environment and locate the robot in it. The main sensors are an intelRealSense camera, a lidar and a ring of 16 ultrasonic sensors.</p>
-                <p></p>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 mx-auto">
+                <a class="twitter-timeline" href="https://twitter.com/Az5Robot?ref_src=twsrc%5Etfw">Tweets by Az5Robot</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
 </section><section id="gallery" class="content-section text-center">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <h2>Gallery</h2>
-                <div class="row">
-  <div class="col-md-12">
-
-    <div id="mdb-lightbox-ui"></div>
-
-    <div class="mdb-lightbox no-margin">
-
-      <figure class="col-md-4">
-        <a class="black-text" href="asssets/img/compluino.jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="assets/img/compluino.jpg"
-            class="img-fluid">
-          <h3 class="text-center my-3">Photo title</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="assets.jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
-        </a>
-      </figure>
-
-    </div>
-
-  </div>
-</div>
+        <div class="photo-gallery">
+            <div class="intro">
+                <h2 class="text-center">Gallery</h2>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a data-lightbox="photos" href="assets/img/cuaga_force_on.jpg">
+                        <img class="img-fluid" src="assets/img/cuaga_force_on.jpg" />
+                        <p>Motor controller</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a data-lightbox="photos" href="assets/img/ensambling_the_motor_platform.jpg">
+                        <img class="img-fluid" src="assets/img/ensambling_the_motor_platform.jpg" />
+                        <p>Ensambling the platform</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a data-lightbox="photos" href="assets/img/motors_and_screen.jpg">
+                        <img class="img-fluid" src="assets/img/motors_and_screen.jpg" />
+                        <p>Coding the controllers</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a data-lightbox="photos" href="assets/img/robot_through_dor.png">
+                        <img class="img-fluid" src="assets/img/robot_through_dor.png" />
+                        <p>Robot trasspasing dor</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a data-lightbox="photos" href="assets/img/rviz_camera.png">
+                        <img class="img-fluid" src="assets/img/rviz_camera.png" />
+                        <p>3D image caption</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a data-lightbox="photos" href="assets/img/rviz_persosns.png">
+                        <img class="img-fluid" src="assets/img/rviz_persosns.png" />
+                        <p>Person detection</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a data-lightbox="photos" href="assets/img/rviz_sensors.png">
+                        <img class="img-fluid" src="assets/img/rviz_sensors.png" />
+                        <p>Sensor filtering</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a data-lightbox="photos" href="assets/img/the_team_land.jpg">
+                        <img class="img-fluid" src="assets/img/the_team_land.jpg" />
+                        <p>The team</p>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -91,27 +116,49 @@
         <div class="container">
             <div class="col-lg-8 mx-auto">
                 <h1>Download tEAM DESCRIPTION PAPER</h1>
-                <p style="width: 627px;margin-left: 0px;margin-bottom: 35px;">&nbsp;You can download our TDP submitted for qualification in the 2020 RoboCup@Home international competition to be held in Bordeaux, France.</p><button class="btn btn-primary btn-lg btn-default" type="button">visit download page</button></div>
+                <p style="margin-left: 0px;margin-bottom: 35px;">&nbsp;You can download our TDP submitted for qualification in the 2020 RoboCup@Home international competition to be held in Bordeaux, France.</p><button class="btn btn-primary btn-lg btn-default" type="button" onclick="location.href = 'https://github.com/Complubot/Papers';">Download Papers on Github</button>
+</div>
         </div>
     </section>
     <section id="contact" class="content-section text-center">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>OUR TEAM</h2>
-                    <p style="height: 64px;">Our team, Complubot AZ5, is currently formed by three members:</p>
-                    <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button" style="width: 165px;"  onclick="location.href = 'https://athome.robocup.org';"><i class="fas fa-robot fa-fw"></i><span class="network-name"> ROBOCUP</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button" style="width: 165px;"><i class="fab fa-youtube fa-fw"></i><span class="network-name"> YOUTUBE</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button" style="width: 165px;" onclick="location.href = 'https://github.com/Complubot/POLLOTRON';"><i class="fab fa-github fa-fw"></i><span class="network-name"> github</span></button></li>
-                    </ul>
-                </div>
-            </div>
+            <div class="row"><div class="col-lg-8 mx-auto">
+    <h2>OUR TEAM</h2>
+    <p style="height: 64px;">Our team, Complubot AZ5, is currently formed by three members:</p>
+    <div>
+        <ul style="list-style-type:none;">
+          <li>Juan Casado Ballesteros</li>
+          <li>Eloy Martín Arconada</li>
+          <li>Iván Gallego Bravo</li>
+        </ul>
+    </div>
+    <ul class="list-inline banner-social-buttons">
+        <li class="list-inline-item">
+            <button class="btn btn-primary btn-lg btn-default" type="button" style="  width: 165px;
+" onclick="location.href = 'https://athome.robocup.org';">
+                <i class="fas fa-robot fa-fw"></i>
+                <span class="network-name"> ROBOCUP</span>
+            </button>
+        </li>
+        <li class="list-inline-item">
+            <button class="btn btn-primary btn-lg btn-default" type="button" style="  width: 165px;" onclick="location.href = 'https://www.youtube.com/user/complubot/';">
+                <i class="fab fa-youtube fa-fw"></i>
+                <span class="network-name"> YOUTUBE</span>
+            </button>
+        </li>
+        <li class="list-inline-item">
+            <button class="btn btn-primary btn-lg btn-default" type="button" style="  width: 165px;
+" onclick="location.href = 'https://github.com/Complubot/POLLOTRON';">
+                <i class="fab fa-github fa-fw"></i>
+                <span class="network-name"> github</span>
+            </button>
+        </li>
+    </ul>
+    <iframe  src="https://www.youtube.com/embed/j8opaWxxlqk?controls=1&loop=1" allowfullscreen>
+    </iframe>
+</div></div>
         </div>
     </section>
-    <!-- Start: Map Clean -->
-    <div class="map-clean"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=+&amp;q=Paris%2C+France&amp;zoom=15" width="100%" height="450"></iframe></div>
-    <!-- End: Map Clean -->
     <footer>
         <div class="container text-center">
             <p>Copmplubot AZ5 2020</p>
@@ -121,6 +168,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
